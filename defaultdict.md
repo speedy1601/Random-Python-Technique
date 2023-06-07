@@ -15,6 +15,13 @@ graph = defaultdict(set)
 graph[1].add(2)
 graph[1].add(3)
 print(graph)  # Output: defaultdict(<class 'set'>, {1: {2, 3}})
+
+To Print :
+----------
+
+for node, neighbours in enumerate(graph):
+    if(len(neighbours) > 0):
+        print(f"Node {node} has {len(neighbours)} neighbours : {', '.join(map(str, neighbours))}")
 ```
 ```CPP
 Here, when you access a key that doesn't exist in the graph dictionary (e.g., graph[1]), it will create a new set 
