@@ -18,8 +18,7 @@ print(graph)  # Output: defaultdict(<class 'set'>, {1: {2, 3}})
 ```
 ```CPP
 Here, when you access a key that doesn't exist in the graph dictionary (e.g., graph[1]), it will create a new set 
-as the value associated with that key and return it. So, you can directly call set methods like add() on the value.
-
+as the value associated with that key and return it. So, you can directly call set methods like add() on the value
 Similarly, when you create a defaultdict(list), each value in the dictionary will be initialized with an empty 
 list by default. For example:
 ```
