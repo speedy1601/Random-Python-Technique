@@ -2,8 +2,8 @@
 graph = defaultdict(set) means each value is a set? graph = defaultdict(list) means each value is a list?
 ```
 ```CPP
-Yes, that's correct! In Python, the defaultdict class from the collections module allows you to specify the default 
-value type for the dictionary.
+Yes, that's correct! In Python, the defaultdict class from the collections module allows you to specify the 
+default value type for the dictionary.
 
 When you create a defaultdict(set), it means that each value in the dictionary will be initialized with an empty 
 set by default. For example:
